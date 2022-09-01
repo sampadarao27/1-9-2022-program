@@ -1,0 +1,17 @@
+#include <stdio.h>
+void fact(int);
+
+void  main() {
+    int x;
+    printf("enter your values");
+    scanf("%d",&x);
+    fact(x);
+}
+void fact(int x)
+{
+    int i,fact1=1;
+    for(i=1;i<=x;i++)
+    { fact1=fact1*i;
+    }
+    printf("%d",fact1);
+}
