@@ -1,0 +1,18 @@
+#include <stdio.h>
+void evenodd(int);
+
+void  main() {
+    int x;
+    printf("enter your values");
+    scanf("%d",&x);
+    evenodd(x);
+} 
+void evenodd(int x)
+{
+    if(x%2==0)
+    printf("even");
+    else
+    printf("odd");
+
+}
+0 comments on commit
